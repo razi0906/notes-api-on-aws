@@ -1,4 +1,3 @@
-```markdown
 # 🗒️ AWS Notes API (Serverless CRUD with Auth)
 
 A fully serverless Notes API built using **AWS Lambda**, **API Gateway**, **DynamoDB**, and **Cognito** — all managed via **Terraform**.
