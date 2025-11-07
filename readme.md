@@ -173,36 +173,6 @@ curl -X DELETE https://<api_id>.execute-api.us-east-1.amazonaws.com/prod/notes/<
 
 * Add user-based notes (partition by Cognito `sub` ID)
 
-## ⚙️ Prerequisites
-
-Before deploying or testing the API, ensure you have:
-
-1. ✅ An **AWS account** with access to:
-
-   * Lambda
-   * API Gateway
-   * Cognito
-   * DynamoDB
-
-2. ✅ **AWS CLI** installed and configured
-
-   ```bash
-   aws configure
-   ```
-
-   Make sure you’re logged in to the correct AWS account/role where resources will be deployed.
-
-3. ✅ **Terraform** installed
-
-   ```bash
-   terraform -version
-   ```
-
-4. ✅ **Python 3.9+** installed (for Lambda source)
-
----
-
-
 ## 🧼 Cleanup
 
 To destroy all AWS resources created by Terraform:
